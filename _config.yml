@@ -5,12 +5,12 @@ highlighter: rouge
 permalink:        pretty
 
 # Setup
-title:            Minimal Blog
-tagline:          'I like KISS. By KISS I means "keep it simple and stupid". '
+title:            wsy Blog
+tagline:          'Everything is possible". '
 baseurl:          /
 
 author:
-  name:           Long
+  name:           wsy
 
 paginate:         5
 recent-num:       5
