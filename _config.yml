@@ -9,7 +9,7 @@ title:            wushuangyang Blog
 tagline:          'wushuangyang Personal Blog'
 baseurl:          /
 
-author:
+author:           wushuangyang
   name:           wsy
 
 paginate:         5
