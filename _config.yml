@@ -5,13 +5,13 @@ highlighter: rouge
 permalink:        pretty
 
 # Setup
-title:            wushuangyang Blog
-tagline:          'wushuangyang Personal Blog'
-baseurl:          /
+title: wushuangyang Blog
+tagline: 'wushuangyang Personal Blog'
+baseurl: /
 
-author:
-  name:           wsy
+author: wushuangyang
+name: wushuangyang
 
-paginate:         5
-recent-num:       5
-article_num:      5
+paginate:  5
+recent-num: 5
+article_num: 5
