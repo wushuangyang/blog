@@ -12,18 +12,18 @@ category: Post
 默认备份文件储存在目录`/var/opt/gitlab/backups`
 比如：
 ```
-#1536775227_2018_09_13是时间戳，11.2.1是gitlab版本号，这两个组合成用于还原时的编号
+# 1536775227_2018_09_13是时间戳，11.2.1是gitlab版本号，这两个组合成用于还原时的编号
 /var/opt/gitlab/backups/1536775227_2018_09_13_11.2.1_gitlab_backup.tar
 ```
 
 另外建议备份:
 
 ```
-#配置文件
+# 配置文件
 /etc/gitlab/gitlab.rb
-#nginx配置文件
+# nginx配置文件
 /var/opt/gitlab/nginx/conf
-#邮件配置
+# 邮件配置
 /etc/postfix/main.cfpostfix
 ```
 
@@ -34,7 +34,10 @@ sudo gitlab-rake gitlab:backup:create
 备份到此也就完成了，但是如果不想每次都去敲命令，也可以配置定时任务，让系统自动备份gitlab，方法如下:
 ```shell
 sudo crontab -e
-#添加以下内容，并保存
+```
+添加以下内容，并保存
+```shell
+# 每日2点备份gitlab
 0 2 * * * /opt/gitlab/bin/gitlab-rake gitlab:backup:create CRON=1
 ```
 
@@ -42,12 +45,12 @@ sudo crontab -e
 
 或者直接编辑/etc/crontab 文件，即`sudo vi /etc/crontab`，然后添加相应的任务
 
-> crontab小知识
-> 分 时 日 月 周 命令
-> 上面的解释就是每日2时0分，执行命令/opt/gitlab/bin/gitlab-rake gitlab:backup:create CRON=1
+> crontab小知识  
+> 分 时 日 月 周 命令  
+> 上面的解释就是每日2时0分，执行命令/opt/gitlab/bin/gitlab-rake gitlab:backup:create CRON=1  
 
 
-备份文件如果嫌多了，可以设置只保存最近7天的备份 
+备份文件如果嫌多了，可以设置只保存最近7天的备份  
 编辑 `/etc/gitlab/gitlab.rb` 配置文件,找到如下代码,删除注释 #  保存 
 ```shell
 gitlab_rails['backup_keep_time'] = 604800
