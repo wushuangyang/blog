@@ -5,13 +5,14 @@ highlighter: rouge
 permalink:        pretty
 
 # Setup
-title: wushuangyang Blog
-tagline: 'wushuangyang Personal Blog'
+title: wushuangyang'Blog
+tagline: 吴双洋的个人博客
 baseurl: /
 
 description: 热爱生活，热爱自由
+email: 709544377@qq.com
 
-author: wushuangyang
+author: 吴双洋
 name: wushuangyang
 
 
