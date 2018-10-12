@@ -12,7 +12,7 @@ baseurl: /
 author: wushuangyang
 name: wushuangyang
 
-description: '自由'
+#description: '自由'
 
 paginate:  5
 recent-num: 5
