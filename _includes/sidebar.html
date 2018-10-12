@@ -1,4 +1,16 @@
 <div class = "sidebar">
+  <div>
+    <img src="{{ site.baseurl }}/assets/images/author_avatar.png" alt="author_avatar">
+  </div>
+  <div>
+    {{ site.author }}
+  </div> 
+  <div>
+   {{ site.description }}
+  </div>  
+</div>
+
+<div class = "sidebar">
   <h2>Category</h2>
 	<ul>
 	  {% for category in site.categories %}
