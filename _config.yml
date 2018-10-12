@@ -9,10 +9,11 @@ title: wushuangyang Blog
 tagline: 'wushuangyang Personal Blog'
 baseurl: /
 
+description: '自由'
+
 author: wushuangyang
 name: wushuangyang
 
-#description: '自由'
 
 paginate:  5
 recent-num: 5
