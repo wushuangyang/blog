@@ -82,8 +82,3 @@ rabbitmqctl set_user_tags admin administrator
 ```
 
 用admin进入rabbitmq后管页面，http://IP:15672
-
-点击admin
-点击Virtual Hosts
-Add a new virtual hosts name框输入 /0001 点击 Add virtual host
-点击/0001 修改user为admin
