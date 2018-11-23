@@ -20,7 +20,7 @@ JKS格式证书生成
 keytool -genkey -v -alias tomcatKey -keyalg RSA -validity 3650 -keystore /home/wu/keyfile/tomcat.keystore
 ```
 参数说明：  
-alias: 别名，ibappKey  
+alias: 别名，tomcatKey  
 keyalg: 证书算法，RSA  
 validity：证书有效时间，10年  
 keystore：证书生成的目标路径和文件名，/wu/keyfile/tomcat.keystore  
