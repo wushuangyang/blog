@@ -16,11 +16,11 @@ category: Linux运维
 
 ### Git不能提交空目录解决方法
 
-解决方法：在空目录中新建一个空文件，比如**readme.md**，**.gitignore**
+解决方法：在空目录中新建一个空文件，比如**readme.md**，**.gitkeep**
 
 快速在本地查找到项目中的空目录并新建空文件
 
 ```cmd
-find . -type d -empty -exex touch {}/.gitignore \;
+find . -type d -empty -exec touch {}/.gitkeep \;
 ```
-做完后，再`git add .`就会发现这些空目录里包含了**.gitignore**，就可以`git commit`和`git push`了。
+做完后，再`git add .`就会发现这些空目录里包含了**.gitkeep**，就可以`git commit`和`git push`了。
