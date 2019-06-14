@@ -2,6 +2,7 @@
 layout: post
 title: Ubuntu server 18.04.1 LTS 修改主机名和网络配置
 category: Linux
+tags: [Linux]
 ---
 
 
