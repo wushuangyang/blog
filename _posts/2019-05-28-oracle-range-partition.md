@@ -2,6 +2,7 @@
 layout: post
 title: Oracle表范围分区
 category: Oracle
+tags: [Oracle]
 ---
 
 ## Oracle表范围分区（range partition）

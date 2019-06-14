@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Tomcat使用https协议
-category: Linux运维
+category: Linux
+tags: [Linux]
 ---
 
 ## Tomcat使用https协议

@@ -2,7 +2,7 @@
 layout: post
 title: RedHat6离线安装ansible过程
 category: Linux运维
-tags: [Linux, ansible]
+tags: [Linux]
 ---
 
 ## 离线安装ansible过程
