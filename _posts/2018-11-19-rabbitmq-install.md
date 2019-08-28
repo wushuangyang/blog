@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Rabbitmq离线安装步骤
-category: Linux运维
-tags: [Linux, ansible]
+category: Linux
+tags: [Linux]
 ---
 
 ## rabbitmq安装步骤

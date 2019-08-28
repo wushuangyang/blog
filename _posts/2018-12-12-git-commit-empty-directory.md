@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Git不能提交空目录原因和解决方法
-category: Linux运维
+category: Linux
+tags: [Linux]
 ---
 
 ## Git不能提交空目录原因和解决方法

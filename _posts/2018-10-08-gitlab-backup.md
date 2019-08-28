@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Gitlab数据备份和还原
-category: Linux运维
+category: Gitlab
+tags: [Gitlab]
 ---
 
 

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Gitlab版本升级
-category: Linux运维 Gitlab
+category: Gitlab
+tags: [Gitlab]
 ---
 
 

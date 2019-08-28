@@ -1,7 +1,8 @@
 ---
 layout: post
 title: VMware ESXi6.5.0安装
-category: Linux运维
+category: Linux
+tags: [Linux]
 ---
 
 
