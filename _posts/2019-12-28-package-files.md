@@ -75,9 +75,9 @@ done;
 #!/bin/bash
 
 #文件源目录
-source_dir=/ibapp/patch/CCS;
+source_dir=/home/test/logs;
 #打包生成目录
-pack_dir=/ibapp/patch;
+pack_dir=/home/test/tmp;
 #包名前缀
 pack_name="file-"
 
